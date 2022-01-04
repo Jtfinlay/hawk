@@ -1,0 +1,9 @@
+version: 1
+kicad:
+  drc:
+    - file: hawk.kicad_pcb
+      dru:
+        file: default
+  erc:
+    - file: hawk.sch
+      lib: hawk-cache.lib
